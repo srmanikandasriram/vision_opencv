@@ -23,7 +23,7 @@ target_link_libraries(${PROJECT_NAME} ${OpenCV_LIBRARIES})
 add_dependencies(${PROJECT_NAME} sensor_msgs_gencpp)
 
 install(DIRECTORY include/${PROJECT_NAME}/
-        DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}/
+        DESTINATION ${CATKIN_PACKAGE_INCLUDE_DESTINATION}
 )
 
 install(TARGETS ${PROJECT_NAME}
